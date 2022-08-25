@@ -26,9 +26,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.49497475"
-     inkscape:cx="798.57886"
-     inkscape:cy="256.9898"
+     inkscape:zoom="1.4"
+     inkscape:cx="235.93447"
+     inkscape:cy="30.129405"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -57,14 +57,15 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="fill:#221b05;fill-opacity:1;stroke-width:0.610662;stroke-linejoin:round;stop-color:#000000"
+       style="fill:#221b05;fill-opacity:1;stroke-width:0.627778;stroke-linejoin:round;stop-color:#000000"
        id="rect835"
        width="286.12799"
-       height="179.5387"
+       height="189.74405"
        x="-4.5357141"
-       y="32.127975" />
+       y="21.922619" />
     <g
-       id="g885">
+       id="g885"
+       transform="translate(0,-10.583333)">
       <ellipse
          style="fill:#44d06e;fill-opacity:1;stroke-width:0.634;stroke-linejoin:round;stop-color:#000000"
          id="path837"
