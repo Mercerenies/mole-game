@@ -9,10 +9,8 @@ function drawHardDirt(surface, grid) {
   gpu_set_blendmode(bm_subtract);
   for (var xx = 0; xx < room_width / GRID_SIZE; xx++) {
     for (var yy = 0; yy < room_height / GRID_SIZE; yy++) {
-      if (grid[# xx, yy] != DirtLevel.HARD) {
-        var img = dirtBitmask(grid, xx, yy, DirtLevel.HARD);
-        draw_sprite(spr_WallImage, img, xx * GRID_SIZE, yy * GRID_SIZE);
-      }
+      var img = dirtBitmask(grid, DirtLevel.HARD, xx, yy);
+      draw_sprite(spr_WallImage, img, xx * GRID_SIZE, yy * GRID_SIZE);
     }
   }
   gpu_set_blendmode(bm_normal);
