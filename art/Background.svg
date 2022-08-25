@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1024"
+   height="768"
+   viewBox="0 0 270.93333 203.20001"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="Background.svg"
+   inkscape:export-filename="C:\Users\Silvio Mayolo\Documents\GameMakerStudio2\MoleGame\art\Background.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="798.57886"
+     inkscape:cy="256.9898"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1592"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:snap-global="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#221b05;fill-opacity:1;stroke-width:0.610662;stroke-linejoin:round;stop-color:#000000"
+       id="rect835"
+       width="286.12799"
+       height="179.5387"
+       x="-4.5357141"
+       y="32.127975" />
+    <g
+       id="g885">
+      <ellipse
+         style="fill:#44d06e;fill-opacity:1;stroke-width:0.634;stroke-linejoin:round;stop-color:#000000"
+         id="path837"
+         cx="11.528275"
+         cy="32.316963"
+         rx="16.819941"
+         ry="5.1026788" />
+      <ellipse
+         style="fill:#44d06e;fill-opacity:1;stroke-width:0.634;stroke-linejoin:round;stop-color:#000000"
+         id="ellipse839"
+         cx="-4.3467255"
+         cy="30.200294"
+         rx="16.819941"
+         ry="5.1026788" />
+      <ellipse
+         style="fill:#44d06e;fill-opacity:1;stroke-width:0.634;stroke-linejoin:round;stop-color:#000000"
+         id="ellipse841"
+         cx="37.986607"
+         cy="30.729462"
+         rx="16.819941"
+         ry="5.1026788" />
+      <ellipse
+         style="fill:#44d06e;fill-opacity:1;stroke-width:0.634;stroke-linejoin:round;stop-color:#000000"
+         id="ellipse843"
+         cx="64.444946"
+         cy="31.787796"
+         rx="16.819941"
+         ry="5.1026788" />
+      <ellipse
+         style="fill:#44d06e;fill-opacity:1;stroke-width:0.634;stroke-linejoin:round;stop-color:#000000"
+         id="ellipse845"
+         cx="90.903267"
+         cy="31.258629"
+         rx="16.819941"
+         ry="5.1026788" />
+      <ellipse
+         style="fill:#44d06e;fill-opacity:1;stroke-width:0.634;stroke-linejoin:round;stop-color:#000000"
+         id="ellipse847"
+         cx="112.06993"
+         cy="32.316963"
+         rx="16.819941"
+         ry="5.1026788" />
+      <ellipse
+         style="fill:#44d06e;fill-opacity:1;stroke-width:0.634;stroke-linejoin:round;stop-color:#000000"
+         id="ellipse849"
+         cx="127.94493"
+         cy="30.729462"
+         rx="16.819941"
+         ry="5.1026788" />
+      <ellipse
+         style="fill:#44d06e;fill-opacity:1;stroke-width:0.634;stroke-linejoin:round;stop-color:#000000"
+         id="ellipse851"
+         cx="151.22833"
+         cy="34.433632"
+         rx="16.819941"
+         ry="5.1026788" />
+      <ellipse
+         style="fill:#44d06e;fill-opacity:1;stroke-width:0.634;stroke-linejoin:round;stop-color:#000000"
+         id="ellipse853"
+         cx="158.10748"
+         cy="33.375298"
+         rx="16.819941"
+         ry="5.1026788" />
+      <ellipse
+         style="fill:#44d06e;fill-opacity:1;stroke-width:0.634;stroke-linejoin:round;stop-color:#000000"
+         id="ellipse855"
+         cx="173.9825"
+         cy="32.316963"
+         rx="16.819941"
+         ry="5.1026788" />
+      <ellipse
+         style="fill:#44d06e;fill-opacity:1;stroke-width:0.634;stroke-linejoin:round;stop-color:#000000"
+         id="ellipse857"
+         cx="186.15332"
+         cy="33.904465"
+         rx="16.819941"
+         ry="5.1026788" />
+      <ellipse
+         style="fill:#44d06e;fill-opacity:1;stroke-width:0.634;stroke-linejoin:round;stop-color:#000000"
+         id="ellipse859"
+         cx="204.67421"
+         cy="34.433632"
+         rx="16.819941"
+         ry="5.1026788" />
+      <ellipse
+         style="fill:#44d06e;fill-opacity:1;stroke-width:0.634;stroke-linejoin:round;stop-color:#000000"
+         id="ellipse861"
+         cx="220.54922"
+         cy="32.84613"
+         rx="16.819941"
+         ry="5.1026788" />
+      <ellipse
+         style="fill:#44d06e;fill-opacity:1;stroke-width:0.634;stroke-linejoin:round;stop-color:#000000"
+         id="ellipse863"
+         cx="236.42424"
+         cy="33.904465"
+         rx="16.819941"
+         ry="5.1026788" />
+      <ellipse
+         style="fill:#44d06e;fill-opacity:1;stroke-width:0.634;stroke-linejoin:round;stop-color:#000000"
+         id="ellipse865"
+         cx="252.29924"
+         cy="34.433632"
+         rx="16.819941"
+         ry="5.1026788" />
+      <ellipse
+         style="fill:#44d06e;fill-opacity:1;stroke-width:0.634;stroke-linejoin:round;stop-color:#000000"
+         id="ellipse867"
+         cx="268.17422"
+         cy="33.375298"
+         rx="16.819941"
+         ry="5.1026788" />
+    </g>
+  </g>
+</svg>
