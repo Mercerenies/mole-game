@@ -7,6 +7,12 @@ function drawHardDirt(surface, grid) {
   draw_sprite(spr_Background, 0, 0, 0);
 
   gpu_set_blendmode(bm_subtract);
+
+  with (obj_Shadow) {
+    if (shadowLayer == 1)
+      drawShadow(0.2);
+  }
+
   for (var xx = 0; xx < room_width / GRID_SIZE; xx++) {
     for (var yy = 0; yy < room_height / GRID_SIZE; yy++) {
       var img = dirtBitmask(grid, DirtLevel.HARD, xx, yy);

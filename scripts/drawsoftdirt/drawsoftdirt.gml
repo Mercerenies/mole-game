@@ -8,6 +8,11 @@ function drawSoftDirt(surface, grid) {
   draw_rectangle_colour(0, 85, room_width, room_height, c, c, c, c, false);
 
   gpu_set_blendmode(bm_subtract);
+  with (obj_Shadow) {
+    if (shadowLayer == 1)
+      drawShadow(0.2);
+  }
+
   for (var xx = 0; xx < room_width / GRID_SIZE; xx++) {
     for (var yy = 0; yy < room_height / GRID_SIZE; yy++) {
       var img = dirtBitmask(grid, DirtLevel.SOFT, xx, yy);
