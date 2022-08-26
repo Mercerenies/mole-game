@@ -1,16 +1,15 @@
 {
-  "name": "ctrl_Init",
   "spriteId": {
     "name": "spr_Init",
     "path": "sprites/spr_Init/spr_Init.yy",
   },
-  "spriteMaskId": null,
-  "visible": false,
   "solid": false,
-  "persistent": false,
-  "physicsObject": false,
+  "visible": false,
   "managed": true,
+  "spriteMaskId": null,
+  "persistent": false,
   "parentObjectId": null,
+  "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
   "physicsGroup": 1,
@@ -32,6 +31,7 @@
     "path": "folders/Control/Init.yy",
   },
   "resourceVersion": "1.0",
+  "name": "ctrl_Init",
   "tags": [],
   "resourceType": "GMObject",
 }

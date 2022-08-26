@@ -12,6 +12,7 @@
     {"id":{"name":"ctrl_BackgroundRenderer","path":"objects/ctrl_BackgroundRenderer/ctrl_BackgroundRenderer.yy",},"order":1,},
     {"id":{"name":"drawSoftDirt","path":"scripts/drawSoftDirt/drawSoftDirt.yy",},"order":8,},
     {"id":{"name":"drawDirtImage","path":"scripts/drawDirtImage/drawDirtImage.yy",},"order":18,},
+    {"id":{"name":"spr_DirtCracked","path":"sprites/spr_DirtCracked/spr_DirtCracked.yy",},"order":20,},
     {"id":{"name":"spr_MoleLeftLeg","path":"sprites/spr_MoleLeftLeg/spr_MoleLeftLeg.yy",},"order":3,},
     {"id":{"name":"scr_Constants","path":"scripts/scr_Constants/scr_Constants.yy",},"order":5,},
     {"id":{"name":"drawBackground","path":"scripts/drawBackground/drawBackground.yy",},"order":9,},
