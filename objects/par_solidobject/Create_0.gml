@@ -21,3 +21,5 @@ canPlayerMoveOnto = function() {
 }
 
 onPlayerMoveOnto = function() {}
+
+doPhysicsTick = function() {}

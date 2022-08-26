@@ -1,11 +1,17 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_Boulder",
+    "path": "sprites/spr_Boulder/spr_Boulder.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "par_PhysicsObject",
+    "path": "objects/par_PhysicsObject/par_PhysicsObject.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -18,17 +24,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Parents",
-    "path": "folders/Puzzle Mechanics/Parents.yy",
+    "name": "Puzzle Mechanics",
+    "path": "folders/Puzzle Mechanics.yy",
   },
   "resourceVersion": "1.0",
-  "name": "par_SolidObject",
+  "name": "obj_Boulder",
   "tags": [],
   "resourceType": "GMObject",
 }

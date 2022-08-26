@@ -31,10 +31,10 @@ if (canPlayerMove()) {
   }
 }
 
+// Animate the player object.
 if (_animating) {
   // Move X and Y.
-  var anim_speed = 0.0667;
-  _animation = min(_animation + anim_speed, 1);
+  _animation = min(_animation + ANIM_SPEED, 1);
   if (_animation >= 1) {
     _animating = false;
   }
@@ -48,4 +48,9 @@ if (_animating) {
   }
 } else {
   _img_facing = _facing;
+}
+
+// Now run the physics tick on all objects.
+with (par_SolidObject) { // TODO Correct order
+  doPhysicsTick();
 }
