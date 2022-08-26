@@ -1,6 +1,4 @@
 
-// TODO Undo
 if (_nextGravity >= 0) {
-  gravityDir = _nextGravity;
-  _nextGravity = -1;
+  undo_stack_apply_change(new SetGravityUndoableChange(gravityDir, _nextGravity));
 }

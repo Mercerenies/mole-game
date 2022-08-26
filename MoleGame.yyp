@@ -33,6 +33,7 @@
     {"id":{"name":"enum_Dir","path":"scripts/enum_Dir/enum_Dir.yy",},"order":2,},
     {"id":{"name":"utils_Instances","path":"scripts/utils_Instances/utils_Instances.yy",},"order":1,},
     {"id":{"name":"spr_CabbageUp","path":"sprites/spr_CabbageUp/spr_CabbageUp.yy",},"order":8,},
+    {"id":{"name":"struct_SetGravityUndoableChange","path":"scripts/struct_SetGravityUndoableChange/struct_SetGravityUndoableChange.yy",},"order":3,},
     {"id":{"name":"spr_Shadow","path":"sprites/spr_Shadow/spr_Shadow.yy",},"order":10,},
     {"id":{"name":"obj_CabbageDown","path":"objects/obj_CabbageDown/obj_CabbageDown.yy",},"order":14,},
     {"id":{"name":"base_UndoableChange","path":"scripts/base_UndoableChange/base_UndoableChange.yy",},"order":1,},

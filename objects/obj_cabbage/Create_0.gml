@@ -8,7 +8,7 @@ canPlayerMoveOnto = function() {
 }
 
 onPlayerMoveOnto = function() {
-  alarm[0] = floor(1 /ANIM_SPEED);
+  alarm[0] = floor(1 / ANIM_SPEED) - 1;
 }
 
 canMoveOntoPlayer = function() {
