@@ -51,14 +51,21 @@ if (_animating) {
 }
 
 // Now run the physics tick on all objects.
-var physicsObjects = [];
 var i = 0;
 with (par_SolidObject) {
   if (hasPhysics) {
-    physicsObjects[i++] = [self.id, roomOrderIndex(self)];
+    other._physicsIndices[i] = i;
+    other._physicsObjects[i] = self.id;
+    other._physicsPriorities[i] = roomOrderIndex(self);
+    i++;
   }
 }
-array_sort(physicsObjects, function(a, b) { return b[1] - a[1]; });
-for (i = 0; i < array_length(physicsObjects); i++) {
-  physicsObjects[i][0].doPhysicsTick();
+if (array_length(_physicsIndices) > i) {
+  array_resize(_physicsIndices, i);
+  array_resize(_physicsObjects, i);
+  array_resize(_physicsPriorities, i);
+}
+array_sort(_physicsIndices, function(a, b) { return obj_Mole._physicsPriorities[b] - obj_Mole._physicsPriorities[a]; });
+for (i = 0; i < array_length(_physicsIndices); i++) {
+  _physicsObjects[_physicsIndices[i]].doPhysicsTick();
 }
