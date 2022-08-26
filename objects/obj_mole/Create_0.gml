@@ -13,3 +13,7 @@ _animation = 0;
 isAnimating = function() {
   return _animating;
 }
+
+isRound = function() {
+  return false;
+}
