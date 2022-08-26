@@ -23,6 +23,12 @@ isAnimating = function() {
   return _animating;
 }
 
+canMoveOntoPlayer = function() {
+  return false;
+}
+
+onMoveOntoPlayer = function() {}
+
 canPlayerMoveOnto = function() {
   var px = obj_Mole.x;
   var py = obj_Mole.y;
@@ -49,6 +55,8 @@ canPlayerMoveOnto = function() {
   return true;
 
 }
+
+onArrive = function() {}
 
 onPlayerMoveOnto = function() {
   var px = obj_Mole.x;
@@ -77,6 +85,7 @@ doPhysicsTick = function() {
   if ((_animating) && (_animation >= 1)) {
     _animating = false;
     _rolling = false;
+    onArrive();
   }
 
   if (!_animating) {
@@ -107,11 +116,22 @@ _considerFalling = function() {
   var belowX = x + GRID_SIZE * dcos(grav);
   var belowY = y + GRID_SIZE * dsin(grav);
   var below = instance_position(belowX, belowY, par_SolidObject);
-  if (!instance_exists(below)) {
-    moveTo(belowX, belowY, false);
-    return true;
+  if (instance_exists(below)) {
+    // If there's something in the way, see if it's the player and if
+    // we're allowed to fall on them.
+    if (below.object_index != obj_Mole) {
+      // Can't fall onto other objects.
+      return false;
+    }
+    if (!canMoveOntoPlayer()) {
+      // Can't fall onto player (object-specific rule).
+      return false;
+    }
+    // We fell on the player, so handle that event.
+    onMoveOntoPlayer();
   }
-  return false;
+  moveTo(belowX, belowY, false);
+  return true;
 }
 
 // dx shall be 1 or -1, indicating whether we're going right or left
@@ -140,9 +160,31 @@ _considerRolling = function(dx) {
   var sideDownY = sideY + GRID_SIZE * dsin(grav);
   var sideDown = instance_position(sideDownX, sideDownY, par_SolidObject);
 
-  if ((!instance_exists(side)) && (!instance_exists(sideDown))) {
-    moveTo(sideDownX, sideDownY, true);
-    return true;
+  if (instance_exists(side)) {
+    // Super weird corner case: If the player is next to us, we can
+    // move onto the player, and there's nothing below the player,
+    // then we do a weird one-sided roll onto the player.
+    if ((side.object_index == obj_Mole) && (canMoveOntoPlayer()) && (!instance_exists(sideDown))) {
+      onMoveOntoPlayer();
+      moveTo(sideX, sideY, false);
+    }
+    return false;
   }
-  return false;
+
+  if (instance_exists(sideDown)) {
+    // Can we move onto it?
+    if (sideDown.object_index != obj_Mole) {
+      // Can't fall onto other objects.
+      return false;
+    }
+    if (!canMoveOntoPlayer()) {
+      // Can't fall onto player (object-specific rule).
+      return false;
+    }
+    // We fell on the player, so handle that event.
+    onMoveOntoPlayer();
+  }
+
+  moveTo(sideDownX, sideDownY, true);
+  return true;
 }

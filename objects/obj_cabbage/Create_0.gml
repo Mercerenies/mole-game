@@ -6,7 +6,17 @@ canPlayerMoveOnto = function() {
 }
 
 onPlayerMoveOnto = function() {
-  _beEaten();
+  alarm[0] = (floor(1 /ANIM_SPEED) - 1);
+}
+
+canMoveOntoPlayer = function() {
+  return true;
+}
+
+onArrive = function() {
+  if (place_meeting(x, y, obj_Mole)) {
+    _beEaten();
+  }
 }
 
 _beEaten = function() {
@@ -27,6 +37,10 @@ doPhysicsTick = function() {
   if (x < -100) {
     // If we're offscreen, advance the animation but do nothing else.
     advanceAnim();
+    if (_animation >= 1) {
+      _animating = false;
+      _rolling = false;
+    }
   } else {
     // Super call.
     _obj_Cabbage_super_doPhysicsTick();
