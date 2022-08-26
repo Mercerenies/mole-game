@@ -91,11 +91,15 @@ doPhysicsTick = function() {
     }
   }
 
+  advanceAnim();
+
+}
+
+advanceAnim = function() {
   if (_animating) {
     // We're currently moving.
     _animation = min(_animation + ANIM_SPEED, 1);
   }
-
 }
 
 _considerFalling = function() {

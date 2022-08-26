@@ -3,6 +3,7 @@
     {"id":{"name":"ctrl_ShadowMaker","path":"objects/ctrl_ShadowMaker/ctrl_ShadowMaker.yy",},"order":14,},
     {"id":{"name":"spr_WallImageSplit","path":"sprites/spr_WallImageSplit/spr_WallImageSplit.yy",},"order":19,},
     {"id":{"name":"gridGet","path":"scripts/gridGet/gridGet.yy",},"order":6,},
+    {"id":{"name":"struct_DestroyPhysicsObjectUndoableChange","path":"scripts/struct_DestroyPhysicsObjectUndoableChange/struct_DestroyPhysicsObjectUndoableChange.yy",},"order":3,},
     {"id":{"name":"ctrl_UndoStack","path":"objects/ctrl_UndoStack/ctrl_UndoStack.yy",},"order":2,},
     {"id":{"name":"spr_HardDirt","path":"sprites/spr_HardDirt/spr_HardDirt.yy",},"order":0,},
     {"id":{"name":"obj_Cabbage","path":"objects/obj_Cabbage/obj_Cabbage.yy",},"order":10,},

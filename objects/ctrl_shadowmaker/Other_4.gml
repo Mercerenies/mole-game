@@ -6,7 +6,7 @@ repeat (spawnCount) {
 }
 
 with (obj_Shadow) {
-  y -= 99999;
+  y -= DISAPPEAR_DIST;
 }
 
 repeat (spawnCount) {
@@ -15,6 +15,6 @@ repeat (spawnCount) {
 
 with (obj_Shadow) {
   if (y < -1000) {
-    y += 99999;
+    y += DISAPPEAR_DIST;
   }
 }
