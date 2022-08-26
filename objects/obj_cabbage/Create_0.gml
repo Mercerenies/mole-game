@@ -1,4 +1,6 @@
 
+_gravityDir = -1;
+
 event_inherited();
 
 canPlayerMoveOnto = function() {
@@ -30,6 +32,11 @@ _beEaten = function() {
 
   var changeAction = new DestroyPhysicsObjectUndoableChange(self.id);
   undo_stack_apply_change(changeAction);
+
+  if (_gravityDir >= 0) {
+    ctrl_Game.queueGravityChange(_gravityDir);
+  }
+
 }
 
 _obj_Cabbage_super_doPhysicsTick = doPhysicsTick;

@@ -38,7 +38,8 @@ canPlayerMoveOnto = function() {
 
   // Player can only push physics objects perpendicular to gravity (so
   // left or right, not up or down, assuming gravity is downward).
-  if (round(abs(playerShoveDir - grav)) != 90) {
+  var angleDiff = ((playerShoveDir - grav) % 360 + 360) % 360;
+  if ((angleDiff != 90) && (angleDiff != 270)) {
     return false;
   }
 
