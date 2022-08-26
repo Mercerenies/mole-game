@@ -45,8 +45,8 @@ _considerFalling = function() {
     _animation = 0;
     _prior_x = x;
     _prior_y = y;
-    x = belowX;
-    y = belowY;
+    var changeAction = new ObjectPositionUndoableChange(self.id, x, y, belowX, belowY);
+    undo_stack_apply_change(changeAction);
     return true;
   }
   return false;
@@ -83,8 +83,8 @@ _considerRolling = function(dx) {
     _animation = 0;
     _prior_x = x;
     _prior_y = y;
-    x = sideDownX;
-    y = sideDownY;
+    var changeAction = new ObjectPositionUndoableChange(self.id, x, y, sideDownX, sideDownY);
+    undo_stack_apply_change(changeAction);
     return true;
   }
   return false;
