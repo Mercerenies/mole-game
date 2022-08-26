@@ -15,8 +15,7 @@ function drawSoftDirt(surface, grid) {
 
   for (var xx = 0; xx < room_width / GRID_SIZE; xx++) {
     for (var yy = 0; yy < room_height / GRID_SIZE; yy++) {
-      var img = dirtBitmask(grid, DirtLevel.SOFT, xx, yy);
-      draw_sprite(spr_WallImage, img, xx * GRID_SIZE, yy * GRID_SIZE);
+      drawDirtImage(grid, DirtLevel.SOFT, xx, yy);
     }
   }
   gpu_set_blendmode(bm_normal);

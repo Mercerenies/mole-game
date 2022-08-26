@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"ctrl_ShadowMaker","path":"objects/ctrl_ShadowMaker/ctrl_ShadowMaker.yy",},"order":14,},
+    {"id":{"name":"spr_WallImageSplit","path":"sprites/spr_WallImageSplit/spr_WallImageSplit.yy",},"order":19,},
     {"id":{"name":"gridGet","path":"scripts/gridGet/gridGet.yy",},"order":6,},
     {"id":{"name":"spr_HardDirt","path":"sprites/spr_HardDirt/spr_HardDirt.yy",},"order":0,},
     {"id":{"name":"obj_HardDirt","path":"objects/obj_HardDirt/obj_HardDirt.yy",},"order":1,},
@@ -10,6 +11,7 @@
     {"id":{"name":"spr_Init","path":"sprites/spr_Init/spr_Init.yy",},"order":1,},
     {"id":{"name":"ctrl_BackgroundRenderer","path":"objects/ctrl_BackgroundRenderer/ctrl_BackgroundRenderer.yy",},"order":1,},
     {"id":{"name":"drawSoftDirt","path":"scripts/drawSoftDirt/drawSoftDirt.yy",},"order":8,},
+    {"id":{"name":"drawDirtImage","path":"scripts/drawDirtImage/drawDirtImage.yy",},"order":18,},
     {"id":{"name":"spr_MoleLeftLeg","path":"sprites/spr_MoleLeftLeg/spr_MoleLeftLeg.yy",},"order":3,},
     {"id":{"name":"scr_Constants","path":"scripts/scr_Constants/scr_Constants.yy",},"order":5,},
     {"id":{"name":"drawBackground","path":"scripts/drawBackground/drawBackground.yy",},"order":9,},
