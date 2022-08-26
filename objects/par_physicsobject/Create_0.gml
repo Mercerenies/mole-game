@@ -2,6 +2,7 @@
 event_inherited();
 
 _animating = false;
+_rolling = false; // For animation purposes, plays a slightly different animation.
 _animation = 0;
 _prior_x = 0;
 _prior_y = 0;
@@ -14,6 +15,7 @@ doPhysicsTick = function() {
 
   if ((_animating) && (_animation >= 1)) {
     _animating = false;
+    _rolling = false;
   }
 
   if (!_animating) {
@@ -42,6 +44,7 @@ _considerFalling = function() {
   var below = instance_place(belowX, belowY, par_SolidObject);
   if (!instance_exists(below)) {
     _animating = true;
+    _rolling = false;
     _animation = 0;
     _prior_x = x;
     _prior_y = y;
@@ -80,6 +83,7 @@ _considerRolling = function(dx) {
 
   if ((!instance_exists(side)) && (!instance_exists(sideDown))) {
     _animating = true;
+    _rolling = true;
     _animation = 0;
     _prior_x = x;
     _prior_y = y;

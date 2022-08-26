@@ -8,13 +8,25 @@ if (_animating) {
   yy = lerp(_prior_y, y, _animation);
   angle = lerp(0, 360, _animation);
 
-  // If we're "falling" to the left (relative to gravity),
-  // then rotate in reverse.
+  var rot = 90 - ctrl_Game.getGravityDegrees();
   var dx = x - _prior_x;
   var dy = y - _prior_y;
-  var rot = 90 - ctrl_Game.getGravityDegrees();
   var transformedDx = dx * dcos(rot) - dy * dsin(rot);
-  //var transformedDy = dx * dsin(rot) + dy * dcos(rot);
+  var transformedDy = dx * dsin(rot) + dy * dcos(rot);
+
+  // Special case for rolling off the side of things (prettier
+  // animation).
+  if (_rolling) {
+    var actualTransDx = _animation * transformedDx;
+    var actualTransDy = _animation * _animation * transformedDy;
+    var newDx = actualTransDx * dcos(- rot) - actualTransDy * dsin(- rot);
+    var newDy = actualTransDx * dsin(- rot) + actualTransDy * dcos(- rot);
+    xx = _prior_x + newDx;
+    yy = _prior_y + newDy;
+  }
+
+  // If we're "falling" to the left (relative to gravity),
+  // then rotate in reverse.
   if (transformedDx < 0) {
     angle *= -1;
   }
