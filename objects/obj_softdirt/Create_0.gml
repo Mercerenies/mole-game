@@ -2,6 +2,10 @@
 event_inherited();
 dirtLevel = DirtLevel.SOFT;
 
+isRound = function() {
+  return false;
+}
+
 canPlayerMoveOnto = function() {
   return true;
 }

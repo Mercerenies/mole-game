@@ -20,6 +20,11 @@ canPlayerMoveOnto = function() {
   return false;
 }
 
+// If this is true, then boulders and other objects will roll off it.
+isRound = function() {
+  return true;
+}
+
 onPlayerMoveOnto = function() {}
 
 doPhysicsTick = function() {}

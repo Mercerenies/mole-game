@@ -57,6 +57,19 @@ _considerFalling = function() {
 _considerRolling = function(dx) {
   var grav = ctrl_Game.getGravityDegrees();
 
+  var belowX = x + GRID_SIZE * dcos(grav);
+  var belowY = y + GRID_SIZE * dsin(grav);
+  var below = instance_place(belowX, belowY, par_SolidObject);
+
+  if (!instance_exists(below)) {
+    // Should be falling instead.
+    return false;
+  }
+  if (!below.isRound()) {
+    // Can't roll off things that aren't round.
+    return false;
+  }
+
   var sideX = x + dx * GRID_SIZE * dcos(grav - 90);
   var sideY = y + dx * GRID_SIZE * dsin(grav - 90);
   var side = instance_place(sideX, sideY, par_SolidObject);
