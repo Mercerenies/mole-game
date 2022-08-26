@@ -11,6 +11,49 @@ isAnimating = function() {
   return _animating;
 }
 
+canPlayerMoveOnto = function() {
+  var px = obj_Mole.x;
+  var py = obj_Mole.y;
+
+  var grav = ctrl_Game.getGravityDegrees();
+  var playerShoveDir = darctan2(y - py, x - px);
+
+  // Player can only push physics objects perpendicular to gravity (so
+  // left or right, not up or down, assuming gravity is downward).
+  if (round(abs(playerShoveDir - grav)) != 90) {
+    return false;
+  }
+
+  // Otherwise, if there's anything at that position, we're not
+  // allowed to push.
+  var targetX = 2 * x - px;
+  var targetY = 2 * y - py;
+  var atTarget = instance_position(targetX, targetY, par_SolidObject);
+  if (instance_exists(atTarget)) {
+    return false;
+  }
+
+  // Otherwise, go for it.
+  return true;
+
+}
+
+onPlayerMoveOnto = function() {
+  var px = obj_Mole.x;
+  var py = obj_Mole.y;
+  var targetX = 2 * x - px;
+  var targetY = 2 * y - py;
+
+  _animating = true;
+  _rolling = false;
+  _animation = 0;
+  _prior_x = x;
+  _prior_y = y;
+  var changeAction = new ObjectPositionUndoableChange(self.id, x, y, targetX, targetY);
+  undo_stack_apply_change(changeAction);
+
+}
+
 doPhysicsTick = function() {
 
   if ((_animating) && (_animation >= 1)) {
@@ -41,7 +84,7 @@ _considerFalling = function() {
   var grav = ctrl_Game.getGravityDegrees();
   var belowX = x + GRID_SIZE * dcos(grav);
   var belowY = y + GRID_SIZE * dsin(grav);
-  var below = instance_place(belowX, belowY, par_SolidObject);
+  var below = instance_position(belowX, belowY, par_SolidObject);
   if (!instance_exists(below)) {
     _animating = true;
     _rolling = false;
@@ -62,7 +105,7 @@ _considerRolling = function(dx) {
 
   var belowX = x + GRID_SIZE * dcos(grav);
   var belowY = y + GRID_SIZE * dsin(grav);
-  var below = instance_place(belowX, belowY, par_SolidObject);
+  var below = instance_position(belowX, belowY, par_SolidObject);
 
   if (!instance_exists(below)) {
     // Should be falling instead.
@@ -75,11 +118,11 @@ _considerRolling = function(dx) {
 
   var sideX = x + dx * GRID_SIZE * dcos(grav - 90);
   var sideY = y + dx * GRID_SIZE * dsin(grav - 90);
-  var side = instance_place(sideX, sideY, par_SolidObject);
+  var side = instance_position(sideX, sideY, par_SolidObject);
 
   var sideDownX = sideX + GRID_SIZE * dcos(grav);
   var sideDownY = sideY + GRID_SIZE * dsin(grav);
-  var sideDown = instance_place(sideDownX, sideDownY, par_SolidObject);
+  var sideDown = instance_position(sideDownX, sideDownY, par_SolidObject);
 
   if ((!instance_exists(side)) && (!instance_exists(sideDown))) {
     _animating = true;

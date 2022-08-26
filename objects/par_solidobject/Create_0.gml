@@ -25,6 +25,7 @@ isRound = function() {
   return true;
 }
 
+// Called immediately *before* the player moves onto this object.
 onPlayerMoveOnto = function() {}
 
 doPhysicsTick = function() {}
