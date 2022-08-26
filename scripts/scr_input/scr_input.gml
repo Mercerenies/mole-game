@@ -25,7 +25,7 @@ function canPlayerMove() {
       return false;
     }
   }
-  if (ctrl_Game._nextGravity >= 0) {
+  if (ctrl_Game.isAnimating()) {
     return false;
   }
   return true;
