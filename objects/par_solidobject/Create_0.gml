@@ -1,5 +1,6 @@
 
 dirtLevel = DirtLevel.NONE;
+hasPhysics = false;
 
 loadIntoGrid = function(grid) {
   if (dirtLevel == DirtLevel.NONE) {

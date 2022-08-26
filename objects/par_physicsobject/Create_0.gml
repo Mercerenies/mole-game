@@ -1,6 +1,7 @@
 
 event_inherited();
 
+hasPhysics = true;
 _animating = false;
 _rolling = false; // For animation purposes, plays a slightly different animation.
 _animation = 0;

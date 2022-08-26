@@ -51,6 +51,14 @@ if (_animating) {
 }
 
 // Now run the physics tick on all objects.
-with (par_SolidObject) { // TODO Correct order
-  doPhysicsTick();
+var physicsObjects = [];
+var i = 0;
+with (par_SolidObject) {
+  if (hasPhysics) {
+    physicsObjects[i++] = [self.id, roomOrderIndex(self)];
+  }
+}
+array_sort(physicsObjects, function(a, b) { return b[1] - a[1]; });
+for (i = 0; i < array_length(physicsObjects); i++) {
+  physicsObjects[i][0].doPhysicsTick();
 }
