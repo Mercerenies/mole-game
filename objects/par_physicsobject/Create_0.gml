@@ -7,6 +7,7 @@ _rolling = false; // For animation purposes, plays a slightly different animatio
 _animation = 0;
 _prior_x = 0;
 _prior_y = 0;
+_rotAnimDir = 1;
 
 isAnimating = function() {
   return _animating;

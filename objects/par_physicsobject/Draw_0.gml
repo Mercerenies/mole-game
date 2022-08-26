@@ -27,7 +27,10 @@ if (_animating) {
 
   // If we're "falling" to the left (relative to gravity),
   // then rotate in reverse.
-  if (transformedDx < 0) {
+  if (transformedDx != 0) {
+    _rotAnimDir = sign(transformedDx);
+  }
+  if (_rotAnimDir < 0) {
     angle *= -1;
   }
 
