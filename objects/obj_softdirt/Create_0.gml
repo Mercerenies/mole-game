@@ -18,6 +18,6 @@ onPlayerMoveOnto = function() {
     part_particles_create(global.part_system, xx, yy, global.soft_dirt_part, 1);
   }
 
-  var action = new DestroySoftDirtUndoableChange(self.id);
+  var action = new DestroyUndoableChange(self.id);
   undo_stack_apply_change(action);
 }

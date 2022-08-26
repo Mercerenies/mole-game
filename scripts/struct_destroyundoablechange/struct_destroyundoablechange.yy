@@ -6,7 +6,7 @@
     "path": "folders/Puzzle Mechanics/Undoable.yy",
   },
   "resourceVersion": "1.0",
-  "name": "struct_DestroySoftDirtUndoableChange",
+  "name": "struct_DestroyUndoableChange",
   "tags": [],
   "resourceType": "GMScript",
 }

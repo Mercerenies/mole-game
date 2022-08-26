@@ -30,7 +30,7 @@ _beEaten = function() {
     part_particles_create(global.part_system, xx, yy, global.cabbage_leaf_part, 1);
   }
 
-  var changeAction = new DestroyPhysicsObjectUndoableChange(self.id);
+  var changeAction = new DestroyUndoableChange(self.id);
   undo_stack_apply_change(changeAction);
 
   if (_gravityDir >= 0) {
