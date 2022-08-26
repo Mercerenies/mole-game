@@ -7,6 +7,10 @@ function SetGravityUndoableChange(_oldGrav, _newGrav) : UndoableChange() constru
     ctrl_Game.gravityDir = oldGrav;
     ctrl_Game._nextGravity = -1;
     ctrl_Game._lagFrame = -1;
+
+    // We let the gyro animate when going forward, but just set it
+    // when undoing.
+    obj_Gyro.angle = oldGrav * 90;
   }
 
   static apply = function() {

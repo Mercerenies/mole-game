@@ -296,6 +296,15 @@
        fx="218.03572"
        fy="101.92547"
        r="8.4642868" />
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Blur"
+       id="filter1324-3">
+      <feGaussianBlur
+         stdDeviation="0.1 0.1"
+         result="blur"
+         id="feGaussianBlur1322-9" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -304,9 +313,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="90.067882"
-     inkscape:cy="108.19007"
+     inkscape:zoom="2.8"
+     inkscape:cx="227.69562"
+     inkscape:cy="79.825395"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -1702,5 +1711,22 @@
          r="3.3035715"
          transform="scale(0.26458333)" />
     </g>
+    <circle
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#2825ac;fill-opacity:1;stroke:#000000;stroke-width:2.09007877;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter1324);stop-color:#000000;stop-opacity:1"
+       id="path1470"
+       cx="285.71429"
+       cy="48.214287"
+       r="31.428572"
+       transform="scale(0.26458333)"
+       inkscape:export-xdpi="97.097099"
+       inkscape:export-ydpi="97.097099" />
+    <path
+       id="path1102-2-6"
+       style="font-variation-settings:normal;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.55300033;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;opacity:1;filter:url(#filter1324);stop-opacity:1"
+       inkscape:transform-center-x="-1.0623559"
+       inkscape:transform-center-y="0.32697379"
+       d="m 76.320637,16.112101 c 0.370474,0.22996 5.991748,-3.000528 5.980099,-3.43675 -0.0115,-0.43621 -5.815919,-4.0402003 -6.174744,-3.8339541 -0.127073,0.073032 -0.167553,1.0587987 -0.174532,2.2069641 l -5.037909,-0.07089 c -0.456835,-0.0063 -0.806747,0.370196 -0.785947,0.843957 l 0.05499,1.258011 c 0.02062,0.473769 0.405641,0.861081 0.862476,0.867496 l 4.988651,0.06978 c 0.06859,1.091195 0.160456,2.016855 0.286894,2.095351 z"
+       inkscape:export-xdpi="97.097099"
+       inkscape:export-ydpi="97.097099" />
   </g>
 </svg>
