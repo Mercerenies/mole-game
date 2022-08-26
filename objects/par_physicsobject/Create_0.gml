@@ -43,15 +43,27 @@ onPlayerMoveOnto = function() {
   var py = obj_Mole.y;
   var targetX = 2 * x - px;
   var targetY = 2 * y - py;
+  var grav = ctrl_Game.getGravityDegrees();
 
   _animating = true;
   _rolling = false;
   _animation = 0;
   _prior_x = x;
   _prior_y = y;
+
+  // If we're about to fall anyway, convert the push to a roll (same
+  // effect, but the animation looks better).
+  var belowX = targetX + GRID_SIZE * dcos(grav);
+  var belowY = targetY + GRID_SIZE * dsin(grav);
+  var belowTarget = instance_position(belowX, belowY, par_SolidObject);
+  if (!instance_exists(belowTarget)) {
+    // Roll push
+    targetX = belowX;
+    targetY = belowY;
+    _rolling = true;
+  }
   var changeAction = new ObjectPositionUndoableChange(self.id, x, y, targetX, targetY);
   undo_stack_apply_change(changeAction);
-
 }
 
 doPhysicsTick = function() {
