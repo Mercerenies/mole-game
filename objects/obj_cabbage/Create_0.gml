@@ -6,7 +6,7 @@ canPlayerMoveOnto = function() {
 }
 
 onPlayerMoveOnto = function() {
-  alarm[0] = (floor(1 /ANIM_SPEED) - 1);
+  alarm[0] = floor(1 /ANIM_SPEED);
 }
 
 canMoveOntoPlayer = function() {
