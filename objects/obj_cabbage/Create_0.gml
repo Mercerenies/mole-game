@@ -38,18 +38,3 @@ _beEaten = function() {
   }
 
 }
-
-_obj_Cabbage_super_doPhysicsTick = doPhysicsTick;
-doPhysicsTick = function() {
-  if (x < -100) {
-    // If we're offscreen, advance the animation but do nothing else.
-    advanceAnim();
-    if (_animation >= 1) {
-      _animating = false;
-      _rolling = false;
-    }
-  } else {
-    // Super call.
-    _obj_Cabbage_super_doPhysicsTick();
-  }
-}

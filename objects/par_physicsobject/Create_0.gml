@@ -89,7 +89,7 @@ doPhysicsTick = function() {
     onArrive();
   }
 
-  if (!_animating) {
+  if ((!_animating) && (x >= -100)) {
     // Consider moving.
     var falling = _considerFalling();
     if (!falling) {
