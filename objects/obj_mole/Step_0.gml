@@ -1,5 +1,5 @@
 
-if (canPlayerMove()) {
+if (canPlayerMove() && !ctrl_Game.gameOver) {
   var dir = getKeyDirection();
   if (!is_undefined(dir)) {
     var xx = x + GRID_SIZE * dcos(dir * 90);

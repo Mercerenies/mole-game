@@ -26,7 +26,18 @@ isRound = function() {
   return true;
 }
 
+// Called when something else lands on this object.
+onObjectImpact = function() {
+
+}
+
 // Called immediately *before* the player moves onto this object.
 onPlayerMoveOnto = function() {}
 
 doPhysicsTick = function() {}
+
+// Called when an undo action brings this object back to life.
+onResurrect = function() {}
+
+// Called when an undo action reverts a move on this object.
+onUndoMove = function() {}

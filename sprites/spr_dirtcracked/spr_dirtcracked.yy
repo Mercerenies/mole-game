@@ -73,8 +73,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Scenery",
-    "path": "folders/Scenery.yy",
+    "name": "Particles",
+    "path": "folders/Scenery/Particles.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_DirtCracked",

@@ -10,6 +10,7 @@ function ObjectPositionUndoableChange(_obj, _oldX, _oldY, _x, _y) : UndoableChan
   static undo = function() {
     obj.x = oldX;
     obj.y = oldY;
+    obj.onUndoMove();
   }
 
   static apply = function() {

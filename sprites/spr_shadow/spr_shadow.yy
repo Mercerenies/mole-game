@@ -125,8 +125,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Scenery",
-    "path": "folders/Scenery.yy",
+    "name": "Shadow Effect",
+    "path": "folders/Scenery/Shadow Effect.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_Shadow",

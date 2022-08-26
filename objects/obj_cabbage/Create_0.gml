@@ -1,7 +1,7 @@
 
-_gravityDir = -1;
-
 event_inherited();
+
+_gravityDir = -1;
 
 canPlayerMoveOnto = function() {
   return true;
@@ -15,7 +15,7 @@ canMoveOntoPlayer = function() {
   return true;
 }
 
-onArrive = function() {
+onArrive = function(wasFalling) {
   if (place_meeting(x, y, obj_Mole)) {
     _beEaten();
   }

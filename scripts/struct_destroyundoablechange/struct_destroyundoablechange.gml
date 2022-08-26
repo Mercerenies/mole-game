@@ -4,6 +4,7 @@ function DestroyUndoableChange(_obj) : UndoableChange() constructor {
 
   static undo = function() {
     obj.x += DISAPPEAR_DIST;
+    obj.onResurrect();
   }
 
   static apply = function() {

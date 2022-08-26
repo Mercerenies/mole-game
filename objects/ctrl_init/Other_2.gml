@@ -28,3 +28,15 @@ part_type_orientation(global.cabbage_leaf_part, 0, 360, 20, 0, false);
 part_type_colour1(global.cabbage_leaf_part, c_white);
 part_type_alpha2(global.cabbage_leaf_part, 0.75, 0.0);
 part_type_life(global.cabbage_leaf_part, 5, 15);
+
+global.beehive_part = part_type_create();
+part_type_sprite(global.beehive_part, spr_BeehivePart, false, false, true);
+part_type_size(global.beehive_part, 0.6, 1.4, 0, 0);
+part_type_scale(global.beehive_part, 1, 1);
+part_type_speed(global.beehive_part, 0.6, 0.9, 0, 0);
+part_type_direction(global.beehive_part, 70, 110, 0, 5);
+part_type_gravity(global.beehive_part, 0, 0);
+part_type_orientation(global.beehive_part, 0, 360, 20, 0, false);
+part_type_colour1(global.beehive_part, c_white);
+part_type_alpha2(global.beehive_part, 0.75, 0.0);
+part_type_life(global.beehive_part, 5, 20);

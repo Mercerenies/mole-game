@@ -57,7 +57,7 @@ canPlayerMoveOnto = function() {
 
 }
 
-onArrive = function() {}
+onArrive = function(wasFalling) {}
 
 onPlayerMoveOnto = function() {
   var px = obj_Mole.x;
@@ -86,7 +86,22 @@ doPhysicsTick = function() {
   if ((_animating) && (_animation >= 1)) {
     _animating = false;
     _rolling = false;
-    onArrive();
+
+    // Determine if we were falling.
+    var grav = ctrl_Game.getGravityDegrees();
+    var rot = 90 - grav;
+    var dx = x - _prior_x;
+    var dy = y - _prior_y;
+    //var transformedDx = dx * dcos(rot) - dy * dsin(rot);
+    var transformedDy = dx * dsin(rot) + dy * dcos(rot);
+    var isFalling = (transformedDy > 0);
+
+    var below = instance_position(x + GRID_SIZE * dcos(grav), y + GRID_SIZE * dsin(grav), par_SolidObject);
+    if (instance_exists(below) && isFalling) {
+      below.onObjectImpact();
+    }
+
+    onArrive(isFalling);
   }
 
   if ((!_animating) && (x >= -100)) {
