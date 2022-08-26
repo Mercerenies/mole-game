@@ -15,6 +15,10 @@ function getKeyDirection() {
   return undefined;
 }
 
+function isUndoPressed() {
+  return keyboard_check_pressed(vk_backspace);
+}
+
 function canPlayerMove() {
   with (par_SolidObject) {
     if (isAnimating()) {

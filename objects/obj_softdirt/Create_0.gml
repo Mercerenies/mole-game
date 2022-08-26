@@ -14,7 +14,6 @@ onPlayerMoveOnto = function() {
     part_particles_create(global.part_system, xx, yy, global.soft_dirt_part, 1);
   }
 
-  // Move out of sight and out of collisions (but don't destroy, so we
-  // can still undo with this instance ID)
-  x -= 9999;
+  var action = new DestroySoftDirtUndoableChange(self.id);
+  undo_stack_apply_change(action);
 }

@@ -10,13 +10,17 @@ if (canPlayerMove()) {
     // Determine if there's something in the way.
     var atTarget = instance_position(xx, yy, par_SolidObject);
     if ((!instance_exists(atTarget)) || (atTarget.canPlayerMoveOnto())) {
+      // Do the actual movement
+
+      undo_stack_begin_move();
+
       _prior_x = x;
       _prior_y = y;
-      x = xx;
-      y = yy;
       _animating = true;
       _animation = 0;
-      _facing = dir * 90;
+
+      var stateChange = new PlayerStateUndoableChange(x, y, _facing, xx, yy, dir * 90);
+      undo_stack_apply_change(stateChange);
 
       if (instance_exists(atTarget)) {
         atTarget.onPlayerMoveOnto();
