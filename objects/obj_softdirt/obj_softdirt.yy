@@ -1,19 +1,18 @@
 {
-  "name": "obj_SoftDirt",
   "spriteId": {
     "name": "spr_SoftDirt",
     "path": "sprites/spr_SoftDirt/spr_SoftDirt.yy",
   },
-  "spriteMaskId": null,
-  "visible": false,
   "solid": false,
-  "persistent": false,
-  "physicsObject": false,
+  "visible": false,
   "managed": true,
+  "spriteMaskId": null,
+  "persistent": false,
   "parentObjectId": {
     "name": "par_SolidObject",
     "path": "objects/par_SolidObject/par_SolidObject.yy",
   },
+  "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
   "physicsGroup": 1,
@@ -35,6 +34,7 @@
     "path": "folders/Puzzle Mechanics.yy",
   },
   "resourceVersion": "1.0",
+  "name": "obj_SoftDirt",
   "tags": [],
   "resourceType": "GMObject",
 }
