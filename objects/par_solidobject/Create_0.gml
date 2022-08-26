@@ -15,3 +15,9 @@ loadIntoGrid = function(grid) {
 isAnimating = function() {
   return false;
 }
+
+canPlayerMoveOnto = function() {
+  return false;
+}
+
+onPlayerMoveOnto = function() {}

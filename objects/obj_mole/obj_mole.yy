@@ -1,19 +1,18 @@
 {
-  "name": "obj_Mole",
   "spriteId": {
     "name": "spr_MoleBody",
     "path": "sprites/spr_MoleBody/spr_MoleBody.yy",
   },
-  "spriteMaskId": null,
-  "visible": true,
   "solid": false,
-  "persistent": false,
-  "physicsObject": false,
+  "visible": true,
   "managed": true,
+  "spriteMaskId": null,
+  "persistent": false,
   "parentObjectId": {
     "name": "par_SolidObject",
     "path": "objects/par_SolidObject/par_SolidObject.yy",
   },
+  "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
   "physicsGroup": 1,
@@ -37,6 +36,7 @@
     "path": "folders/Puzzle Mechanics.yy",
   },
   "resourceVersion": "1.0",
+  "name": "obj_Mole",
   "tags": [],
   "resourceType": "GMObject",
 }

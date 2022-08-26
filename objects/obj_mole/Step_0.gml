@@ -7,13 +7,22 @@ if (canPlayerMove()) {
     xx = round(xx / GRID_SIZE) * GRID_SIZE;
     yy = round(yy / GRID_SIZE) * GRID_SIZE;
 
-    _prior_x = x;
-    _prior_y = y;
-    x = xx;
-    y = yy;
-    _animating = true;
-    _animation = 0;
-    _facing = dir * 90;
+    // Determine if there's something in the way.
+    var atTarget = instance_position(xx, yy, par_SolidObject);
+    if ((!instance_exists(atTarget)) || (atTarget.canPlayerMoveOnto())) {
+      _prior_x = x;
+      _prior_y = y;
+      x = xx;
+      y = yy;
+      _animating = true;
+      _animation = 0;
+      _facing = dir * 90;
+
+      if (instance_exists(atTarget)) {
+        atTarget.onPlayerMoveOnto();
+      }
+
+    }
 
   }
 }
@@ -27,12 +36,12 @@ if (_animating) {
   }
   // Shift angle.
   var rot_speed = 10;
-  var angle_diff = angle_difference(_facing, image_angle);
+  var angle_diff = angle_difference(_facing, _img_facing);
   if (abs(angle_diff) < rot_speed) {
-    image_angle = _facing;
+    _img_facing = _facing;
   } else {
-    image_angle += rot_speed * sign(angle_diff);
+    _img_facing += rot_speed * sign(angle_diff);
   }
 } else {
-  image_angle = _facing;
+  _img_facing = _facing;
 }
