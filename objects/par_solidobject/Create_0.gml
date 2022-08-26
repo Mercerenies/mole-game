@@ -11,3 +11,7 @@ loadIntoGrid = function(grid) {
     grid[# xx, yy] = dirtLevel;
   }
 }
+
+isAnimating = function() {
+  return false;
+}

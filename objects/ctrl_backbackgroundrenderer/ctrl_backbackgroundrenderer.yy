@@ -1,11 +1,11 @@
 {
-  "name": "ctrl_Init",
+  "name": "ctrl_BackBackgroundRenderer",
   "spriteId": {
-    "name": "spr_Init",
-    "path": "sprites/spr_Init/spr_Init.yy",
+    "name": "spr_BackBackgroundRenderer",
+    "path": "sprites/spr_BackBackgroundRenderer/spr_BackBackgroundRenderer.yy",
   },
   "spriteMaskId": null,
-  "visible": false,
+  "visible": true,
   "solid": false,
   "persistent": false,
   "physicsObject": false,
@@ -23,13 +23,13 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":2,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Init",
-    "path": "folders/Control/Init.yy",
+    "name": "Scenery",
+    "path": "folders/Scenery.yy",
   },
   "resourceVersion": "1.0",
   "tags": [],

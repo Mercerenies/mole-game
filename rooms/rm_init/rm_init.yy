@@ -47,7 +47,7 @@
   },
   "parent": {
     "name": "Init",
-    "path": "folders/Init.yy",
+    "path": "folders/Control/Init.yy",
   },
   "resourceVersion": "1.0",
   "name": "rm_Init",

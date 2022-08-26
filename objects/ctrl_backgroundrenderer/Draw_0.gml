@@ -9,6 +9,5 @@ if ((is_undefined(surface)) || (!surface_exists(surface))) {
   surface = surface_create(room_width, room_height);
 }
 
-drawBackground();
 drawSoftDirt(surface, grid);
 drawHardDirt(surface, grid);
