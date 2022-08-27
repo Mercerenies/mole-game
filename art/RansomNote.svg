@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1024"
+   height="768"
+   viewBox="0 0 270.93333 203.20001"
+   version="1.1"
+   id="svg6276"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="RansomNote.svg"
+   inkscape:export-filename="C:\Users\Silvio Mayolo\Documents\GameMakerStudio2\MoleGame\art\RansomNote.png"
+   inkscape:export-xdpi="97.097099"
+   inkscape:export-ydpi="97.097099">
+  <defs
+     id="defs6270">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient6981">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop6977" />
+      <stop
+         style="stop-color:#f6f6f6;stop-opacity:1"
+         offset="1"
+         id="stop6979" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6981"
+       id="linearGradient6983"
+       x1="104.24123"
+       y1="56.768208"
+       x2="155.36995"
+       y2="126.3642"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="670.03947"
+     inkscape:cy="417.12012"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     inkscape:snap-global="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1592"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata6273">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g6975"
+       transform="rotate(2.6619855,22.326892,132.60311)">
+      <path
+         id="path6848"
+         style="fill:url(#linearGradient6983);fill-opacity:1;stroke:#000000;stroke-width:0.543848;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+         d="m 79.231645,26.993947 -0.01292,0.152879 a 6.614583,5.6575629 0 0 0 -0.553971,-0.02002 6.614583,5.6575629 0 0 0 -6.614584,5.657615 6.614583,5.6575629 0 0 0 0.189135,1.34388 V 148.39844 c -0.169309,2.2264 -3.23913,3.72021 -6.255948,3.61705 -3.082452,-0.10541 -5.461858,-1.58248 -6.561357,-3.47109 a 6.614583,5.6575629 0 0 0 6.204788,5.03664 l -0.0072,0.14196 115.849772,0.3993 0.0129,-0.15287 a 6.614583,5.6575629 0 0 0 0.55397,0.02 6.614583,5.6575629 0 0 0 6.61459,-5.65762 6.614583,5.6575629 0 0 0 -0.75086,-2.61787 V 32.71781 h 0.56172 c 0.16931,-2.226398 3.23913,-3.720209 6.25595,-3.617044 3.08245,0.105409 5.46186,1.582474 6.56136,3.471081 a 6.614583,5.6575629 0 0 0 -6.20479,-5.036635 l 0.007,-0.141959 z" />
+      <text
+         xml:space="preserve"
+         style="font-size:6.35px;line-height:1.25;font-family:'Reem Kufi';-inkscape-font-specification:'Reem Kufi';stroke-width:0.264583"
+         x="79.226303"
+         y="54.632339"
+         id="text6868"><tspan
+           sodipodi:role="line"
+           x="79.226303"
+           y="54.632339"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:'MV Boli';-inkscape-font-specification:'MV Boli';stroke-width:0.264583"
+           id="tspan6872">Dear Marty,</tspan><tspan
+           sodipodi:role="line"
+           x="79.226303"
+           y="62.737457"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:'MV Boli';-inkscape-font-specification:'MV Boli';stroke-width:0.264583"
+           id="tspan6878" /><tspan
+           sodipodi:role="line"
+           x="79.226303"
+           y="70.842575"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:'MV Boli';-inkscape-font-specification:'MV Boli';stroke-width:0.264583"
+           id="tspan6880">I've been kidnapped by the evil</tspan><tspan
+           sodipodi:role="line"
+           x="79.226303"
+           y="78.947701"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:'MV Boli';-inkscape-font-specification:'MV Boli';stroke-width:0.264583"
+           id="tspan6882">Farmer Blue, please hurry to</tspan><tspan
+           sodipodi:role="line"
+           x="79.226303"
+           y="87.052818"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:'MV Boli';-inkscape-font-specification:'MV Boli';stroke-width:0.264583"
+           id="tspan6888">his house immediately!</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:'Reem Kufi';-inkscape-font-specification:'Reem Kufi';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:end;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:end;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+         x="181.19989"
+         y="84.666664"
+         id="text6896"
+         transform="translate(0.98523341,35.355555)"><tspan
+           sodipodi:role="line"
+           id="tspan6894"
+           x="181.19989"
+           y="84.666664"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:'MV Boli';-inkscape-font-specification:'MV Boli';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;text-indent:0;text-align:end;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:end;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1">With love,</tspan><tspan
+           sodipodi:role="line"
+           x="181.19989"
+           y="92.771782"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:'MV Boli';-inkscape-font-specification:'MV Boli';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;text-indent:0;text-align:end;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:end;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+           id="tspan6898">Mrs Maddie Mole</tspan></text>
+    </g>
+  </g>
+</svg>
