@@ -56,4 +56,4 @@ part_type_life(global.player_fire, 10, 20);
 
 // DEBUG CODE
 //room_goto_next();
-room_goto(rm_Level12);
+room_goto(rm_Level13);

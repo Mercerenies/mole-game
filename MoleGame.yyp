@@ -46,6 +46,7 @@
     {"id":{"name":"spr_Game","path":"sprites/spr_Game/spr_Game.yy",},"order":3,},
     {"id":{"name":"drawBackground","path":"scripts/drawBackground/drawBackground.yy",},"order":9,},
     {"id":{"name":"enum_DirtLevel","path":"scripts/enum_DirtLevel/enum_DirtLevel.yy",},"order":3,},
+    {"id":{"name":"rm_Level13","path":"rooms/rm_Level13/rm_Level13.yy",},"order":15,},
     {"id":{"name":"par_SolidObject","path":"objects/par_SolidObject/par_SolidObject.yy",},"order":1,},
     {"id":{"name":"rm_Level03","path":"rooms/rm_Level03/rm_Level03.yy",},"order":5,},
     {"id":{"name":"enum_Dir","path":"scripts/enum_Dir/enum_Dir.yy",},"order":2,},
@@ -141,6 +142,7 @@
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"rm_Template","path":"rooms/rm_Template/rm_Template.yy",},},
     {"roomId":{"name":"rm_Level12","path":"rooms/rm_Level12/rm_Level12.yy",},},
+    {"roomId":{"name":"rm_Level13","path":"rooms/rm_Level13/rm_Level13.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Puzzle Mechanics.yy","order":2,"resourceVersion":"1.0","name":"Puzzle Mechanics","tags":[],"resourceType":"GMFolder",},
