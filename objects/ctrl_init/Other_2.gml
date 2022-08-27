@@ -55,4 +55,5 @@ part_type_alpha3(global.player_fire, 1.0, 0.7, 0.0);
 part_type_life(global.player_fire, 10, 20);
 
 // DEBUG CODE
-room_goto_next();
+//room_goto_next();
+room_goto(rm_Epilogue);

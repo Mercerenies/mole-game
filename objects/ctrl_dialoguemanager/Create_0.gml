@@ -12,9 +12,14 @@ advance = function() {
     _display_text = "";
   } else {
     var next = ds_queue_dequeue(_queue);
-    _face = next.face;
-    _text = next.text;
-    _display_text = "";
+    if (next.isRun()) {
+      next.run();
+      advance();
+    } else {
+      _face = next.face;
+      _text = next.text;
+      _display_text = "";
+    }
   }
 }
 
