@@ -23,3 +23,6 @@ advanceIfEmpty = function() {
     advance();
   }
 }
+
+// Initializer (will be set in creation code and called at room start)
+init = function() {}

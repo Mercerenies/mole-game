@@ -23,6 +23,10 @@ function isRestartPressed() {
   return keyboard_check_pressed(vk_escape);
 }
 
+function isDialoguePressed() {
+  return keyboard_check_pressed(vk_f1);
+}
+
 function canPlayerMove() {
   with (par_SolidObject) {
     if (isAnimating()) {

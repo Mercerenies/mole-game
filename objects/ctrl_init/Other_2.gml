@@ -1,6 +1,7 @@
 
 randomize();
-room_goto_next();
+
+global.skip_dia = false;
 
 // Initialize particle systems
 global.part_system = part_system_create_layer("Instances_Particles", true);
@@ -52,3 +53,7 @@ part_type_orientation(global.player_fire, 0, 0, 0, 0, false);
 part_type_colour3(global.player_fire, $2727a1, $7dced4, $8ddee4);
 part_type_alpha3(global.player_fire, 1.0, 0.7, 0.0);
 part_type_life(global.player_fire, 10, 20);
+
+// DEBUG CODE
+//room_goto_next();
+room_goto(rm_Level06);
