@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1024"
+   height="300"
+   viewBox="0 0 270.93333 79.375003"
+   version="1.1"
+   id="svg1135"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="DialogueBox.svg"
+   inkscape:export-filename="C:\Users\Silvio Mayolo\Documents\GameMakerStudio2\MoleGame\art\DialogueBox.png"
+   inkscape:export-xdpi="97.097099"
+   inkscape:export-ydpi="97.097099">
+  <defs
+     id="defs1129">
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter2041"
+       x="-0.0019452071"
+       width="1.0038904"
+       y="-0.0035443343"
+       height="1.0070887">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.085971207"
+         id="feGaussianBlur2043" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="503.22187"
+     inkscape:cy="160.41842"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1592"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata1132">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#2825ac;fill-opacity:1;stroke:#000000;stroke-width:0.553;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter2041);stop-color:#000000;stop-opacity:1"
+       id="rect1698"
+       width="269.94223"
+       height="77.775429"
+       x="0.26726952"
+       y="0.53453904"
+       rx="0"
+       ry="0"
+       transform="matrix(1.0511666,0,0,1.1369267,-2.9106432,0.48197021)" />
+  </g>
+</svg>

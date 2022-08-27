@@ -1,4 +1,6 @@
 
+random_set_seed(room);
+
 var spawnCount = 100;
 
 repeat (spawnCount) {

@@ -13,3 +13,7 @@ if (canPlayerMove()) {
 
   }
 }
+
+if (isRestartPressed()) {
+  room_restart();
+}

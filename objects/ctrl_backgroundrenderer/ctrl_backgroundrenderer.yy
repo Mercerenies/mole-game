@@ -1,16 +1,15 @@
 {
-  "name": "ctrl_BackgroundRenderer",
   "spriteId": {
     "name": "spr_BackgroundRenderer",
     "path": "sprites/spr_BackgroundRenderer/spr_BackgroundRenderer.yy",
   },
-  "spriteMaskId": null,
-  "visible": true,
   "solid": false,
-  "persistent": false,
-  "physicsObject": false,
+  "visible": true,
   "managed": true,
+  "spriteMaskId": null,
+  "persistent": false,
   "parentObjectId": null,
+  "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
   "physicsGroup": 1,
@@ -34,6 +33,7 @@
     "path": "folders/Scenery.yy",
   },
   "resourceVersion": "1.0",
+  "name": "ctrl_BackgroundRenderer",
   "tags": [],
   "resourceType": "GMObject",
 }

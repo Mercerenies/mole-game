@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_BackBackgroundRenderer",
-    "path": "sprites/spr_BackBackgroundRenderer/spr_BackBackgroundRenderer.yy",
+    "name": "spr_DialogueManager",
+    "path": "sprites/spr_DialogueManager/spr_DialogueManager.yy",
   },
   "solid": false,
   "visible": true,
@@ -23,15 +23,18 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":12,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Scenery",
-    "path": "folders/Scenery.yy",
+    "name": "Dialogue",
+    "path": "folders/Dialogue.yy",
   },
   "resourceVersion": "1.0",
-  "name": "ctrl_BackBackgroundRenderer",
+  "name": "ctrl_DialogueManager",
   "tags": [],
   "resourceType": "GMObject",
 }

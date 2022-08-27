@@ -19,6 +19,10 @@ function isUndoPressed() {
   return keyboard_check_pressed(vk_backspace);
 }
 
+function isRestartPressed() {
+  return keyboard_check_pressed(vk_escape);
+}
+
 function canPlayerMove() {
   with (par_SolidObject) {
     if (isAnimating()) {
@@ -28,5 +32,12 @@ function canPlayerMove() {
   if (ctrl_Game.isAnimating()) {
     return false;
   }
+  if (ctrl_DialogueManager._text != "") {
+    return false;
+  }
   return true;
+}
+
+function isConfirmPressed() {
+  return keyboard_check_pressed(vk_space) || keyboard_check_pressed(vk_enter);
 }
