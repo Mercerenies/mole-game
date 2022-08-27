@@ -41,3 +41,5 @@ onResurrect = function() {}
 
 // Called when an undo action reverts a move on this object.
 onUndoMove = function() {}
+
+onExplode = function() {}

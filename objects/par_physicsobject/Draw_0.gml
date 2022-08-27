@@ -42,4 +42,6 @@ var centerY = yy + GRID_SIZE / 2;
 var adjustedUpperLeftX = centerX - (GRID_SIZE / 2) * dcos(angle) + (GRID_SIZE / 2) * dsin(angle);
 var adjustedUpperLeftY = centerY - (GRID_SIZE / 2) * dsin(angle) - (GRID_SIZE / 2) * dcos(angle);
 
+_lastAngle = angle;
+
 draw_sprite_ext(sprite_index, image_index, adjustedUpperLeftX, adjustedUpperLeftY, image_xscale, image_yscale, - angle, image_blend, image_alpha);

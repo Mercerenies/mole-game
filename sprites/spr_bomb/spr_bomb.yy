@@ -8,13 +8,13 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 47,
+  "bbox_right": 45,
   "bbox_top": 0,
   "bbox_bottom": 47,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 48,
+  "width": 46,
   "height": 48,
   "textureGroupId": {
     "name": "Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"49310718-ab15-4c19-b39a-47c40561b44a","path":"sprites/spr_Boulder/spr_Boulder.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"49310718-ab15-4c19-b39a-47c40561b44a","path":"sprites/spr_Boulder/spr_Boulder.yy",},"LayerId":{"name":"19b5dd2b-21c7-4a20-b3e3-35a711c39d6f","path":"sprites/spr_Boulder/spr_Boulder.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Boulder","path":"sprites/spr_Boulder/spr_Boulder.yy",},"resourceVersion":"1.0","name":"49310718-ab15-4c19-b39a-47c40561b44a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"d0b6cfc4-46e0-48ac-9603-2bdd38b7d1c1","path":"sprites/spr_Bomb/spr_Bomb.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"d0b6cfc4-46e0-48ac-9603-2bdd38b7d1c1","path":"sprites/spr_Bomb/spr_Bomb.yy",},"LayerId":{"name":"3a39e718-7686-433e-b471-d0eda00fa777","path":"sprites/spr_Bomb/spr_Bomb.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_Bomb","path":"sprites/spr_Bomb/spr_Bomb.yy",},"resourceVersion":"1.0","name":"d0b6cfc4-46e0-48ac-9603-2bdd38b7d1c1","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_Boulder","path":"sprites/spr_Boulder/spr_Boulder.yy",},
+    "spriteId": {"name":"spr_Bomb","path":"sprites/spr_Bomb/spr_Bomb.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"2bc14cd6-8a52-4126-b55b-a03756446907","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"49310718-ab15-4c19-b39a-47c40561b44a","path":"sprites/spr_Boulder/spr_Boulder.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"f37d24e9-973e-4c5c-b293-71164eb2a0b3","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d0b6cfc4-46e0-48ac-9603-2bdd38b7d1c1","path":"sprites/spr_Bomb/spr_Bomb.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_Boulder","path":"sprites/spr_Boulder/spr_Boulder.yy",},
+    "parent": {"name":"spr_Bomb","path":"sprites/spr_Bomb/spr_Bomb.yy",},
     "resourceVersion": "1.4",
-    "name": "spr_Boulder",
+    "name": "spr_Bomb",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"19b5dd2b-21c7-4a20-b3e3-35a711c39d6f","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3a39e718-7686-433e-b471-d0eda00fa777","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Puzzle Mechanics/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_Boulder",
+  "name": "spr_Bomb",
   "tags": [],
   "resourceType": "GMSprite",
 }

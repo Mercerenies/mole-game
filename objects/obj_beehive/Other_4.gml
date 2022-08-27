@@ -1,4 +1,6 @@
 
+event_inherited();
+
 // Spawn the bees
 for (var i = 0; i < 3; i++) {
   var dy = GRID_SIZE * (- 0.3 + 0.3 * i);

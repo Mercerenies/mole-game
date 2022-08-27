@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_HardDirt",
-    "path": "sprites/spr_HardDirt/spr_HardDirt.yy",
+    "name": "spr_VeryHardDirt",
+    "path": "sprites/spr_VeryHardDirt/spr_VeryHardDirt.yy",
   },
   "solid": false,
   "visible": false,
@@ -34,7 +34,7 @@
     "path": "folders/Puzzle Mechanics.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_HardDirt",
+  "name": "obj_VeryHardDirt",
   "tags": [],
   "resourceType": "GMObject",
 }

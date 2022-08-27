@@ -40,3 +40,15 @@ part_type_orientation(global.beehive_part, 0, 360, 20, 0, false);
 part_type_colour1(global.beehive_part, c_white);
 part_type_alpha2(global.beehive_part, 0.75, 0.0);
 part_type_life(global.beehive_part, 5, 20);
+
+global.player_fire = part_type_create();
+part_type_shape(global.player_fire, pt_shape_pixel);
+part_type_size(global.player_fire, 1, 1, 0, 0);
+part_type_scale(global.player_fire, 1, 1);
+part_type_speed(global.player_fire, 1, 2.5, 0, 0);
+part_type_direction(global.player_fire, 70, 110, 0, 5);
+part_type_gravity(global.player_fire, 0, 0);
+part_type_orientation(global.player_fire, 0, 0, 0, 0, false);
+part_type_colour3(global.player_fire, $2727a1, $7dced4, $8ddee4);
+part_type_alpha3(global.player_fire, 1.0, 0.7, 0.0);
+part_type_life(global.player_fire, 10, 20);

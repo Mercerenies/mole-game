@@ -1,17 +1,14 @@
 {
   "spriteId": {
-    "name": "spr_HardDirt",
-    "path": "sprites/spr_HardDirt/spr_HardDirt.yy",
+    "name": "spr_Boom",
+    "path": "sprites/spr_Boom/spr_Boom.yy",
   },
   "solid": false,
-  "visible": false,
+  "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "par_SolidObject",
-    "path": "objects/par_SolidObject/par_SolidObject.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -26,15 +23,16 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Puzzle Mechanics",
-    "path": "folders/Puzzle Mechanics.yy",
+    "name": "Scenery",
+    "path": "folders/Scenery.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_HardDirt",
+  "name": "obj_Boom",
   "tags": [],
   "resourceType": "GMObject",
 }

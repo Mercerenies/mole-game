@@ -1,6 +1,4 @@
 
-_gravityDir = -1;
-
 event_inherited();
 
 onArrive = function(wasFalling) {
@@ -44,4 +42,8 @@ onUndoMove = function() {
       resetPosition();
     }
   }
+}
+
+onExplode = function() {
+  ctrl_Game.loseGame();
 }

@@ -13,4 +13,8 @@ function DestroyUndoableChange(_obj) : UndoableChange() constructor {
     obj.x -= DISAPPEAR_DIST;
   }
 
+  static can_apply = function() {
+    return obj.x > -100;
+  }
+
 }

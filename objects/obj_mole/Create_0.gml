@@ -22,3 +22,7 @@ isAnimating = function() {
 isRound = function() {
   return false;
 }
+
+onExplode = function() {
+  ctrl_Game.loseGame();
+}

@@ -1,16 +1,16 @@
 {
   "spriteId": {
-    "name": "spr_HardDirt",
-    "path": "sprites/spr_HardDirt/spr_HardDirt.yy",
+    "name": "spr_Bomb",
+    "path": "sprites/spr_Bomb/spr_Bomb.yy",
   },
   "solid": false,
-  "visible": false,
+  "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "par_SolidObject",
-    "path": "objects/par_SolidObject/par_SolidObject.yy",
+    "name": "par_PhysicsObject",
+    "path": "objects/par_PhysicsObject/par_PhysicsObject.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -26,6 +26,7 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -34,7 +35,7 @@
     "path": "folders/Puzzle Mechanics.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_HardDirt",
+  "name": "obj_Bomb",
   "tags": [],
   "resourceType": "GMObject",
 }
