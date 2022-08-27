@@ -97,12 +97,14 @@ doPhysicsTick = function() {
     var transformedDy = dx * dsin(rot) + dy * dcos(rot);
     var isFalling = (transformedDy > 0);
 
-    var below = instance_position(x + GRID_SIZE * dcos(grav), y + GRID_SIZE * dsin(grav), par_SolidObject);
-    if (instance_exists(below) && isFalling) {
-      below.onObjectImpact();
-    }
-
     onArrive(isFalling);
+
+    if (x > -100) {
+      var below = instance_position(x + GRID_SIZE * dcos(grav), y + GRID_SIZE * dsin(grav), par_SolidObject);
+      if (instance_exists(below) && isFalling) {
+        below.onObjectImpact();
+      }
+    }
   }
 
   if ((!_animating) && (x >= -100)) {

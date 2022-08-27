@@ -39,6 +39,8 @@ _boom = function() {
     }
   }
 
+  ctrl_Game._lagFrame = 1;
+
 }
 
 onExplode = function() {
