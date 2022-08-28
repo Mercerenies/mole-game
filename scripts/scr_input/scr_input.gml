@@ -15,6 +15,22 @@ function getKeyDirection() {
   return undefined;
 }
 
+function getKeyDirectionPressed() {
+  if ((keyboard_check_pressed(ord("W"))) || (keyboard_check_pressed(vk_up))) {
+    return Dir.UP;
+  }
+  if ((keyboard_check_pressed(ord("A"))) || (keyboard_check_pressed(vk_left))) {
+    return Dir.LEFT;
+  }
+  if ((keyboard_check_pressed(ord("S"))) || (keyboard_check_pressed(vk_down))) {
+    return Dir.DOWN;
+  }
+  if ((keyboard_check_pressed(ord("D"))) || (keyboard_check_pressed(vk_right))) {
+    return Dir.RIGHT;
+  }
+  return undefined;
+}
+
 function isUndoPressed() {
   return keyboard_check_pressed(vk_backspace);
 }
