@@ -8,4 +8,5 @@
  + [ ] Saving / loading
  + [ ] Aboveground animations
  + [ ] Credits
+ + [ ] Final check for ~////~, ~TODO~, and ~DEBUG CODE~
  + [ ] Release! ^.^
