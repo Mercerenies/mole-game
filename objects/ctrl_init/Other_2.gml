@@ -1,4 +1,6 @@
 
+instance_create_layer(0, 0, "Instances", ctrl_SaveLoad);
+
 randomize();
 
 global.skip_dia = false;

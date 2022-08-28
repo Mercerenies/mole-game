@@ -2,5 +2,5 @@
 event_inherited();
 
 onClick = function() {
-  // TODO
+  room_goto(rm_Continue);
 }

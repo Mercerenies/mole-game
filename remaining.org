@@ -4,10 +4,12 @@
  + [ ] Double check room order
  + [ ] BGM
  + [ ] Voice acting
- + [ ] Main menu
+ + [X] Main menu
+ + [ ] Main menu bg (optional)
  + [ ] Saving / loading
  + [ ] Aboveground animations
  + [ ] Credits
  + [ ] Level names / numbers
+ + [ ] Intro splash
  + [ ] Final check for ~////~, ~TODO~, and ~DEBUG CODE~
  + [ ] Release! ^.^
