@@ -2,6 +2,7 @@
 mainAudio = audio_play_sound(snd_BGM, 100, true);
 applauseSound = undefined;
 playingApplause = false;
+voice = undefined;
 
 playApplause = function() {
   if (playingApplause) {

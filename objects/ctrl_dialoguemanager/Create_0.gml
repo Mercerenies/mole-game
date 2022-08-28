@@ -19,6 +19,9 @@ advance = function() {
       _face = next.face;
       _text = next.text;
       _display_text = "";
+      if (!is_undefined(next.voice)) {
+        voiceSound(next.voice);
+      }
     }
   }
 }

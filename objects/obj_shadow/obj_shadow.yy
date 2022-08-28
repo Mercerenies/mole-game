@@ -1,16 +1,15 @@
 {
-  "name": "obj_Shadow",
   "spriteId": {
     "name": "spr_Shadow",
     "path": "sprites/spr_Shadow/spr_Shadow.yy",
   },
-  "spriteMaskId": null,
-  "visible": false,
   "solid": false,
-  "persistent": false,
-  "physicsObject": false,
+  "visible": false,
   "managed": true,
+  "spriteMaskId": null,
+  "persistent": false,
   "parentObjectId": null,
+  "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
   "physicsGroup": 1,
@@ -32,6 +31,7 @@
     "path": "folders/Scenery.yy",
   },
   "resourceVersion": "1.0",
+  "name": "obj_Shadow",
   "tags": [],
   "resourceType": "GMObject",
 }
