@@ -15,6 +15,7 @@
   "layers": [
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"ctrl_DialogueManager","path":"objects/ctrl_DialogueManager/ctrl_DialogueManager.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-224.0,"y":416.0,"resourceVersion":"1.0","name":"inst_3AE03AB3_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_Credits","path":"objects/obj_Credits/obj_Credits.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":512.0,"y":64.0,"resourceVersion":"1.0","name":"inst_11AD5CE7","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Instances_Dialogue","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Instances_Particles","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
@@ -748,6 +749,7 @@
     {"name":"inst_1ED10D41","path":"rooms/rm_CakeLevel/rm_CakeLevel.yy",},
     {"name":"inst_2A4EBA5E","path":"rooms/rm_CakeLevel/rm_CakeLevel.yy",},
     {"name":"inst_46F9E9F6","path":"rooms/rm_CakeLevel/rm_CakeLevel.yy",},
+    {"name":"inst_11AD5CE7","path":"rooms/rm_CakeLevel/rm_CakeLevel.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

@@ -8,8 +8,10 @@
  + [ ] Main menu bg (optional)
  + [X] Saving / loading
  + [ ] Aboveground animations
- + [ ] Credits
+ + [X] Credits
  + [ ] Level names / numbers
  + [ ] Intro splash
+ + [ ] Full screen
+ + [ ] Readme
  + [ ] Final check for ~////~, ~TODO~, and ~DEBUG CODE~
  + [ ] Release! ^.^
