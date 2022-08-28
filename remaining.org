@@ -1,0 +1,11 @@
+
+* REMAINING TODO ITEMS
+ + [ ] Sound effects
+ + [ ] Double check room order
+ + [ ] BGM
+ + [ ] Voice acting
+ + [ ] Main menu
+ + [ ] Saving / loading
+ + [ ] Aboveground animations
+ + [ ] Credits
+ + [ ] Release! ^.^

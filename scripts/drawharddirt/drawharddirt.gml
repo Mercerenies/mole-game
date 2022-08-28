@@ -4,7 +4,11 @@ function drawHardDirt(surface, grid) {
 
   // Clear surface
   draw_clear_alpha(c_white, 0);
-  draw_sprite(spr_Background, 0, 0, 0);
+  if (room == rm_CakeLevel) {
+    draw_sprite(spr_Cake, 0, 0, 0);
+  } else {
+    draw_sprite(spr_Background, 0, 0, 0);
+  }
 
   gpu_set_blendmode(bm_subtract);
 

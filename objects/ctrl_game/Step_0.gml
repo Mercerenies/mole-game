@@ -8,8 +8,12 @@ if (canPlayerMove()) {
 
     if (!gameOver) {
       // Check if we've won.
-      if (obj_CabbageCounter.cabbages_collected == obj_CabbageCounter.total_cabbages) {
-        room_goto_next();
+      if (room == rm_CakeLevel) {
+        // TODO
+      } else {
+        if (obj_CabbageCounter.cabbages_collected == obj_CabbageCounter.total_cabbages) {
+          room_goto_next();
+        }
       }
     }
 

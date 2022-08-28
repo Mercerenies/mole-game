@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"ctrl_ShadowMaker","path":"objects/ctrl_ShadowMaker/ctrl_ShadowMaker.yy",},"order":14,},
+    {"id":{"name":"rm_CakeLevel","path":"rooms/rm_CakeLevel/rm_CakeLevel.yy",},"order":32,},
     {"id":{"name":"spr_WallImageSplit","path":"sprites/spr_WallImageSplit/spr_WallImageSplit.yy",},"order":19,},
     {"id":{"name":"gridGet","path":"scripts/gridGet/gridGet.yy",},"order":6,},
     {"id":{"name":"ctrl_UndoStack","path":"objects/ctrl_UndoStack/ctrl_UndoStack.yy",},"order":2,},
@@ -41,6 +42,7 @@
     {"id":{"name":"rm_Level23","path":"rooms/rm_Level23/rm_Level23.yy",},"order":25,},
     {"id":{"name":"rm_Level05","path":"rooms/rm_Level05/rm_Level05.yy",},"order":6,},
     {"id":{"name":"spr_DialogueManager","path":"sprites/spr_DialogueManager/spr_DialogueManager.yy",},"order":3,},
+    {"id":{"name":"spr_Cake","path":"sprites/spr_Cake/spr_Cake.yy",},"order":6,},
     {"id":{"name":"spr_Boulder","path":"sprites/spr_Boulder/spr_Boulder.yy",},"order":4,},
     {"id":{"name":"struct_PlayerStateUndoableChange","path":"scripts/struct_PlayerStateUndoableChange/struct_PlayerStateUndoableChange.yy",},"order":1,},
     {"id":{"name":"rm_Level04","path":"rooms/rm_Level04/rm_Level04.yy",},"order":5,},
@@ -180,6 +182,7 @@
     {"roomId":{"name":"rm_Level26","path":"rooms/rm_Level26/rm_Level26.yy",},},
     {"roomId":{"name":"rm_Level27","path":"rooms/rm_Level27/rm_Level27.yy",},},
     {"roomId":{"name":"rm_Epilogue","path":"rooms/rm_Epilogue/rm_Epilogue.yy",},},
+    {"roomId":{"name":"rm_CakeLevel","path":"rooms/rm_CakeLevel/rm_CakeLevel.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"rm_Template","path":"rooms/rm_Template/rm_Template.yy",},},
   ],

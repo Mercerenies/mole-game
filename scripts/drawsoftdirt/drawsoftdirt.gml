@@ -5,7 +5,11 @@ function drawSoftDirt(surface, grid) {
   // Clear surface
   draw_clear_alpha(c_white, 0);
   var c = make_colour_rgb(59, 31, 9);
-  draw_rectangle_colour(0, 85, room_width, room_height, c, c, c, c, false);
+  if (room == rm_CakeLevel) {
+    draw_sprite(spr_Cake, 0, 0, 0);
+  } else {
+    draw_rectangle_colour(0, 85, room_width, room_height, c, c, c, c, false);
+  }
 
   gpu_set_blendmode(bm_subtract);
   with (obj_Shadow) {
