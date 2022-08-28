@@ -1,6 +1,6 @@
 
 * REMAINING TODO ITEMS
- + [ ] Sound effects
+ + [X] Sound effects
  + [ ] Double check room order
  + [X] BGM
  + [ ] Voice acting
@@ -13,5 +13,6 @@
  + [ ] Intro splash
  + [ ] Full screen
  + [ ] Readme
+ + [ ] Ico
  + [ ] Final check for ~////~, ~TODO~, and ~DEBUG CODE~
  + [ ] Release! ^.^

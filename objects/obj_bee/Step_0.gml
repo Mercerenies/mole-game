@@ -18,3 +18,15 @@ if (point_distance(x, y, targetX, targetY) < move_speed) {
   x += move_speed * cos(dir);
   y += move_speed * sin(dir);
 }
+
+if (instance_exists(_beehive) && (_beehive.x < -100)) {
+  // I'm mad, my house was destroyed :(
+  if (is_undefined(_buzzSound)) {
+    _buzzSound = audio_play_sound(snd_Buzz, 0, true);
+  }
+} else {
+  if (!is_undefined(_buzzSound)) {
+    audio_stop_sound(_buzzSound);
+    _buzzSound = undefined;
+  }
+}

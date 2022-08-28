@@ -3,6 +3,8 @@ _angle_anim = random(10);
 _beehive = noone;
 _beehiveDy = 0;
 
+_buzzSound = undefined;
+
 move_speed = 4;
 
 getTargetX = function() {

@@ -20,4 +20,5 @@ onPlayerMoveOnto = function() {
 
   var action = new DestroyUndoableChange(self.id);
   undo_stack_apply_change(action);
+  sfx(snd_Dirt);
 }

@@ -41,6 +41,9 @@ _beEaten = function() {
 
   if (_gravityDir >= 0) {
     ctrl_Game.queueGravityChange(_gravityDir);
+    sfx(snd_Gravity);
+  } else {
+    sfx(choose(snd_Cabbage1, snd_Cabbage2));
   }
 
 }

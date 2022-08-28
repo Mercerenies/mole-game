@@ -39,6 +39,10 @@ _boom = function() {
     }
   }
 
+  if (!audio_is_playing(snd_Boom)) {
+    sfx(snd_Boom);
+  }
+
   ctrl_Game._lagFrame = 1;
 
 }
