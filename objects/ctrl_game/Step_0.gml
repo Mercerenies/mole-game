@@ -9,7 +9,7 @@ if (canPlayerMove()) {
     if (!gameOver) {
       // Check if we've won.
       if (room == rm_CakeLevel) {
-        // TODO
+        // No win con in the cake room
       } else {
         if (obj_CabbageCounter.cabbages_collected == obj_CabbageCounter.total_cabbages) {
           room_goto_next();
@@ -21,6 +21,10 @@ if (canPlayerMove()) {
 }
 
 if (isRestartPressed() && (ctrl_DialogueManager._text == "")) {
-  global.skip_dia = true;
-  room_restart();
+  if (room == rm_CakeLevel) {
+    room_goto(rm_Title);
+  } else {
+    global.skip_dia = true;
+    room_restart();
+  }
 }

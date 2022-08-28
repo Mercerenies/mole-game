@@ -6,7 +6,7 @@
  + [ ] Voice acting
  + [X] Main menu
  + [ ] Main menu bg (optional)
- + [ ] Saving / loading
+ + [X] Saving / loading
  + [ ] Aboveground animations
  + [ ] Credits
  + [ ] Level names / numbers

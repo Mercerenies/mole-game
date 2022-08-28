@@ -1,4 +1,6 @@
 
+image_index = ((_index == 28) ? 1 : 0);
+
 draw_self();
 
 draw_set_font(fnt_CabbageCounter);
