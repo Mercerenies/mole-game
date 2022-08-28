@@ -9,10 +9,10 @@
  + [X] Saving / loading
  + [ ] Aboveground animations
  + [X] Credits
- + [ ] Level names / numbers
- + [ ] Intro splash
- + [ ] Full screen
- + [ ] Readme
- + [ ] Ico
+ + [X] Level names / numbers
+ + [X] Intro splash
+ + [X] Full screen
+ + [ ] Readme (mention controls, including fullscreen f6)
+ + [X] Ico
  + [ ] Final check for ~////~, ~TODO~, and ~DEBUG CODE~
  + [ ] Release! ^.^

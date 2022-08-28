@@ -31,6 +31,10 @@ function getKeyDirectionPressed() {
   return undefined;
 }
 
+function isFullscreenPressed() {
+  return keyboard_check_pressed(vk_f6);
+}
+
 function isUndoPressed() {
   return keyboard_check_pressed(vk_backspace);
 }
