@@ -2,7 +2,7 @@
 * REMAINING TODO ITEMS
  + [ ] Sound effects
  + [ ] Double check room order
- + [ ] BGM
+ + [X] BGM
  + [ ] Voice acting
  + [X] Main menu
  + [ ] Main menu bg (optional)

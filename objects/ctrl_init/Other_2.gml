@@ -1,5 +1,6 @@
 
 instance_create_layer(0, 0, "Instances", ctrl_SaveLoad);
+instance_create_layer(0, 0, "Instances", ctrl_BackgroundMusic);
 
 randomize();
 
