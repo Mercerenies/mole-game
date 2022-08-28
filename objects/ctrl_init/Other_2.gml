@@ -57,5 +57,4 @@ part_type_colour3(global.player_fire, $2727a1, $7dced4, $8ddee4);
 part_type_alpha3(global.player_fire, 1.0, 0.7, 0.0);
 part_type_life(global.player_fire, 10, 20);
 
-// DEBUG CODE
 room_goto_next();

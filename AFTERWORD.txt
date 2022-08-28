@@ -1,0 +1,58 @@
+
+Thank you again for playing! I'm pretty happy with this one. It's 27
+stages long, and your progress is saved, so if you didn't quite
+finish, you can always come back and the game will remember your
+progress.
+
+Minor easter egg: You may have noticed there are little patterns in
+the dirt on each stage. Most of these are generic icons that don't
+have any meaning, but there are references to six past Mercerenies Jam
+games in the patterns. See how many you can identify :)
+
+--- SPOILERS ---
+
+The final stage (27. Nightmare) is fairly difficult in its own right,
+so I've included a walkthrough for it below. I recommend trying the
+stage before reading on, but if you're struggling and just want to see
+the ending cutscene, then read on.
+
+As you proceed, do not free any beehives that don't absolutely have to
+be freed. If the instructions don't mention a beehive, then assume it
+should stay boxed inside of dirt safely.
+
+1. Collect the left-gravity cabbage immediately. Collect the easy
+(non-gravity) cabbage next to it, while you're here.
+
+2. Destroy the dirt above the bomb.
+
+3. Move the upper-left bees so that they won't die when you hit the
+up-gravity cabbage.
+
+4. Hit the up-gravity cabbage, making sure not to box yourself into
+the upper-right corner as you do so.
+
+5. Move the upper-left beehive again so that it's ready for the
+right-gravity cabbage to be hit.
+
+6. Collect the top cabbage that the bomb just freed.
+
+7. Find three free boulders and use them to fill the hole that the
+bomb made at the top of the screen. You need to build a bridge. There
+are several boulders that can do this, so pick three.
+
+8. Now move the topmost beehive to the far right, across the new
+bridge you just made. It should be boxed in on the top, right, and
+bottom now.
+
+9. Find a fourth free boulder and use it to completely box in the
+top-right beehive you just buried. That beehive should be covered on
+all four sides now.
+
+9. Collect the right-gravity cabbage.
+
+10. Push the top-left beehive again, so that it's safe for the
+down-gravity cabbage.
+
+11. Collect the down-gravity cabbage.
+
+12. Collect the final cabbage on the far left of the screen.

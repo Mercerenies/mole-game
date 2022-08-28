@@ -1,18 +1,18 @@
 
 * REMAINING TODO ITEMS
  + [X] Sound effects
- + [ ] Double check room order
+ + [X] Double check room order
  + [X] BGM
- + [ ] Voice acting
+ + [X] Voice acting
  + [X] Main menu
- + [ ] Main menu bg (optional)
+ + [X] +Main menu bg (optional)+
  + [X] Saving / loading
- + [ ] Aboveground animations
+ + [X] Aboveground animations
  + [X] Credits
  + [X] Level names / numbers
  + [X] Intro splash
  + [X] Full screen
- + [ ] Readme (mention controls, including fullscreen f6)
+ + [X] Readme (mention controls, including fullscreen f6)
  + [X] Ico
- + [ ] Final check for ~////~, ~TODO~, and ~DEBUG CODE~
- + [ ] Release! ^.^
+ + [X] Final check for ~////~, ~TODO~, and ~DEBUG CODE~
+ + [X] Release! ^.^
