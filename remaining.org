@@ -8,5 +8,6 @@
  + [ ] Saving / loading
  + [ ] Aboveground animations
  + [ ] Credits
+ + [ ] Level names / numbers
  + [ ] Final check for ~////~, ~TODO~, and ~DEBUG CODE~
  + [ ] Release! ^.^
